@@ -1,0 +1,304 @@
+.w {
+	width: 999px;
+	margin: 0 auto;
+}
+a, address, b, big, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, 
+img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul {
+	margin: 0;
+	psdding: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after,
+.clearfix:before{
+	contain:" ";
+	display: block;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+a{
+	text-decoration: none;
+}
+/*header部分开始*/
+.header {
+	height: 110px;
+	background: url("../images/header2.jpg") repeat-x left bottom;
+}
+.header .w {
+	margin: 0 auto;
+	width: 1210px;
+	height: 76px;
+}
+.login-con {
+	height: 76px;
+}
+.header .logo {
+	display: block;
+	width: 160px;
+	height: 50px;
+	float: left;
+	margin-top: 24px;
+	background: url("../images/icon.png") no-repeat;
+
+}
+.header .logo-title {
+	float: left;
+	height: 34px;
+	font-size: 24px;
+	line-height: 34px;
+	color: #333;
+	margin-top: 34px;
+}
+.header .have-account {
+	float: right;
+	font-size: 16px;
+	color: #999;
+	margin-top: 55px;
+}
+.header .have-account a{
+	color: #c81623;
+}
+.header .have-account a:hover {
+	color: #c81625;
+}
+
+/*注册*/
+.container .w {
+	width: 1210px;
+	height: 407px;
+	margin: 0 auto;
+}
+.progress-bar {
+	position: relative;
+	margin: 88px auto 0;
+	width: 400px;
+	height: 55px;
+}
+.pro-step {
+	float: left;
+	width: 60px;
+	height: 55px;
+}
+/*数字*/
+ .pro-index {
+ 	margin: 0  auto;
+	display: block;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+	background: url("../images/reg-icon.png") no-repeat -45px -200px;
+
+}
+.cur-step .pro-index {
+	display: block;
+	background-position: 0px -200px;
+}
+/*描述*/
+.pro-desc {
+	width: 60px;
+	height: 21px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #999;
+	
+}
+.progress-bar .cur-step .pro-desc {
+	color: #3b4;
+}
+/*箭头线*/
+.pro-line {
+	position: absolute;
+	top: 7px;
+	left: 55px;
+	float: left;
+	width: 124px;
+	height:10px;
+	background: url("../images/reg-icon.png") no-repeat 0px -100px;
+}
+/*progress-bar第二小块*/
+.pro-step2 {
+	margin-left: 106px;
+	width: 72px;
+}
+.pro-step2 .pro-index {
+	margin: 0  auto;
+}
+.pro-step2 .pro-desc {
+	width: 72px;
+}
+/*第二个箭头线*/
+.pro-line2 {
+	position: absolute;
+	left: 228px;
+}
+/*progress-bar第三小块*/
+.pro-step3 {
+	margin-left: 112px;
+	width: 48px;
+}
+.pro-step3 .pro-desc {
+	width: 48px;
+}
+/*填写注册的开始*/
+.main {
+	margin: 0 auto 186px;
+	width: 400px;
+	height: 302px;
+}
+.reg-form {
+	font-size: 14px;
+}
+.form-item {
+	width: 398px;
+	height: 52px;
+}
+.item-phone-wrap {
+	margin-top: 50px;
+	width: 400px;
+	height: 86px;
+}
+.form-item label {
+	float: left;
+	width: 87px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ddd;
+	border-right: none;
+}
+.select-city {
+	padding-left: 20px;
+	width: 110px;
+	height: 52px;
+	color: #666;
+	cursor: pointer;
+}
+.arrow {
+	display: block;
+	float: right;
+	margin-top: 15px;
+	width: 15px;
+	height: 15px;
+	background: url("../images/icon.png") no-repeat -2px -150px;
+}
+/*input部分*/
+
+.item-input-wrap input {
+	float: right;
+	width: 290px;
+	height: 52px;
+	outline: none;
+	border: 1px solid #ddd;
+} 
+.item-input-wrap input[placeholder] {
+	padding-left: 22px;
+	box-sizing: border-box;
+}
+/*点击按钮进行验证部分*/
+.click-btn {
+	width: 398px;
+	height: 52px;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 52px;
+}
+.click-btn:hover {
+	border-color: #666;
+} 
+/*下一步*/
+.next {
+	margin-top: 54px;
+	width: 400px;
+	height: 54px;
+	line-height: 54px;
+	background-color: #e2231a;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.next:hover {
+	background-color: #c81623;
+}
+/**/
+.reg-other a {
+	position: relative; 
+	top: 30px;
+	width: 118px;
+	height: 28px;
+	line-height: 28px;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+}
+.reg-other a i {
+	position: absolute;
+	top: 14px;
+	left: 0;
+	height: 26px;
+	width: 26px;
+	font-style: normal;
+	background: url("../images/reg-icon.png") no-repeat 0px -160px;
+} 
+.reg-other a span {
+	height: 26px;
+	width: 90px;
+	line-height: 26px;
+	font-size: 14px;
+	position: absolute;
+	left: 30px;
+	top: 14px;
+}
+.reg-other :nth-child(2) i {
+	position: absolute;
+	top: 14px;
+	left: 282px;
+	background: url("../images/reg-icon.png") no-repeat -40px -160px;
+
+}
+.reg-other :nth-child(2) span {
+	position: absolute;
+	height: 26px;
+	width: 90px;
+	top: 14px;
+	left: 313px;
+}
+/*页脚*/
+.footer{
+	width: 1210px;
+	height: 118px;margin-top: 100px;
+	text-align: center;
+	font-size: 12px;
+	border-top: 1px solid #ddd;
+}
+
+.link {
+	width: 1210px;
+	height: 66px;
+	color: #999;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+.link a {
+	color: #999;
+}
+.link span {
+	margin: 0 10px;
+}
+.link a:hover {
+	text-decoration: underline;
+	
+}
+.copyright {
+	width: 1210px;
+	height: 21px;
+	color: #999;
+	text-align: center;
+}

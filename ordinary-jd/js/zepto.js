@@ -180,7 +180,7 @@ var Zepto = (function() {
   }
 
   // `$.zepto.init` is Zepto's counterpart to jQuery's `$.fn.init` and
-  // takes a CSS selector and an optional context (and handles various
+  // takes a css selector and an optional context (and handles various
   // special cases).
   // This method can be overridden in plugins.
   zepto.init = function(selector, context) {
@@ -198,7 +198,7 @@ var Zepto = (function() {
       // If there's a context, create a collection on that context first, and select
       // nodes from there
       else if (context !== undefined) return $(context).find(selector)
-      // If it's a CSS selector, use it to select nodes.
+      // If it's a css selector, use it to select nodes.
       else dom = zepto.qsa(document, selector)
     }
     // If a function is given, call it when the DOM is ready
@@ -217,7 +217,7 @@ var Zepto = (function() {
       // If there's a context, create a collection on that context first, and select
       // nodes from there
       else if (context !== undefined) return $(context).find(selector)
-      // And last but no least, if it's a CSS selector, use it to select nodes.
+      // And last but no least, if it's a css selector, use it to select nodes.
       else dom = zepto.qsa(document, selector)
     }
     // create a new Zepto collection from the nodes found
@@ -256,7 +256,7 @@ var Zepto = (function() {
     return target
   }
 
-  // `$.zepto.qsa` is Zepto's CSS selector implementation which
+  // `$.zepto.qsa` is Zepto's css selector implementation which
   // uses `document.querySelectorAll` and optimizes for some special cases, like `#id`.
   // This method can be overridden in plugins.
   zepto.qsa = function(element, selector){

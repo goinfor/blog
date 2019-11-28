@@ -1,0 +1,297 @@
+.w {
+	margin: 0 auto;
+	width: 990px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #666;
+}
+body{
+	color: #666;
+}
+em {
+    font-style: normal;
+}
+ul li {
+	list-style: none;
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,
+hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+	margin: 0;
+	padding: 0;
+}
+#logo {
+	position: relative;
+	width: 300px;
+	margin: 10px 0;
+	height: 60px;
+	float: left;
+}
+#logo b {
+	display: block;
+	width: 110px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: url(../images/login-txt.png) no-repeat;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.q-link {
+	position: relative;
+	color: #999;
+	float: right;
+	top: 52px;
+}
+.q-link b {
+	display: inline-block;
+	width:18px;
+	height: 14px;
+	margin: 0 5px;
+	background: url(../images/q-icon.png) no-repeat;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#content {	
+	clear: both;
+}
+#content .tips-wrapper {
+	background-color: #fff8f0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.cont-wrapper {
+	display: inline-block;
+	width: 90%;
+}
+.icon-tips {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon-tips.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+p {
+	vertical-align: middle;
+	color: #999;
+	font-size: 12px;
+	display: inline-block;
+}
+.black {
+	color: #333;
+}
+#content .login-wrap {
+	margin-top: 0;
+}
+.login-wrap {
+	position: relative;
+	height: 475px;
+	margin: 10px 0 20px;
+	z-index: 5;
+}
+.login-wrap .login-from {
+	float: right;
+	top: 10px;
+}
+.login-from {
+	position: relative;
+	z-index: 4;
+	background: #fff;
+	overflow: visible;
+	width: 346px;
+}
+.cont-wrapper {
+	background-color: #fff8f0;
+	width: 100%;
+	text-align: center;
+}
+.login-tab {
+	height: 54px;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: 1px solid #f4f4f4;
+	position: absolute;
+	background: #fff;
+	display: block;
+}
+.login-tab-l, .login-tab-r {
+	width: 173px;
+}
+.login-tab a {
+	width: 99%;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	top: 18px;
+	border-right: 1px solid #f4f4f4;
+	text-decoration: none;
+	color: #666;
+}
+.login-tab-r {
+	right: 0;
+}
+.login-tab a.check, .login-tab a:hover {
+	font-weight: 700;
+	color: #e4393c;
+}
+.code-login {
+	width: 306px;
+	padding: 20px 18px 0 20px;
+	text-align: center;
+}
+.ewm {
+	position: relative;
+	height: 168px;
+	margin-top: 65px;
+	
+}
+.ewm img {
+	display: block;
+	padding: 10px;
+	border: 1px solid #f4f4f4;
+	margin: 0 auto;
+}
+.code-panel {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 257px;
+	margin-top: 20px;
+}
+.code-panel ul {
+	text-align: center;
+} 
+.code-panel ul li {
+	display: inline-block; 
+	padding: 0 0 0 5px;
+	margin: 0 5px 0 0;
+}
+.red {
+	color: #e4393c;
+}
+.qr-coagent {
+	background-color: #fff;
+	color: #999;
+	border: none;
+	padding: 15px;
+	margin: 0 auto;
+	line-height: 25px;
+	margin-left: 47px;
+	overflow: hidden;
+}
+.qr-coagent ul {
+	display: block;
+}
+.qr-coagent li {
+	float: left; 
+    text-align: left;
+    position: relative;
+    margin-right: 18px;
+}
+.qr-coagent li b {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url(../images/qr-coagent.png) no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+}
+.qr-coagent .faster b {
+	background-position: -27px;
+}
+.qr-coagent .more-safe b {
+	background-position: -54px;
+}
+.qr-coagent li em {
+	padding-left: 32px;
+	display: inline;
+}
+.coagent {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    height: auto;
+    background-color: #fcfcfc;
+}
+.coagent li {
+	float: left;
+}
+.coagent .qq {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px;
+}
+.coagent .qq:hover {
+	color: #E4393C;
+	text-decoration: underline; 
+}
+.QQ-icon {
+	width: 19px;
+	height: 18px;
+	display: block;
+	background: url(../images/QQ-weixin.png) no-repeat;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	left: 0;
+	top: 16px;
+}
+.coagent ul {
+	height: 50px;
+}
+.coagent li .line {
+    color: #ccc;
+    padding: 0 10px;
+}
+.weixin {
+	background-position: -20px 0;
+}
+.coagent .register-r {
+	float: right;
+}
+.reg-link {
+    color: #b61d1d;
+	font-size: 14px;
+}
+.register-r b {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	background: url(../images/pwd-icons-new.png) -104px -75px no-repeat;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+/*背景图部分开始*/
+.login-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 475px;
+    background-color: #e94b3c;
+}
+.banner {
+	position: relative;
+	z-index: 3;
+	height: 475px;
+	background: url(../images/login-banner.jpg) no-repeat;
+}
+.footer {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.links a {
+	margin: 0 10px;
+}
+.copyright {
+	margin: 10px 0;
+}
+/*背景图部分结束*/

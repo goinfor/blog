@@ -72,7 +72,7 @@
       endEvent = $.fx.animationEnd
     } else {
       cssProperties = []
-      // CSS transitions
+      // css transitions
       for (key in properties)
         if (supportedTransforms.test(key)) transforms += key + '(' + properties[key] + ') '
         else cssValues[key] = properties[key], cssProperties.push(dasherize(key))
