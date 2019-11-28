@@ -1,0 +1,291 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+a :hover{
+    cursor:pointer;
+    color:red;
+}
+#htop{
+	width:1360px;
+	height:28px;
+	background:rgb(248,248,248);
+	box-shadow:0px 2px 5px #ccc;
+}
+.htop{
+   float:right;
+   width:440px;
+    height:28px;
+    margin-right:50px;
+    color:rgb(130,130,130);
+    font-size:12px;
+    font-family:宋体;
+    line-height:28px;
+}
+.container{
+	width:960px;
+	margin:5px auto;
+}
+#daohangmain{
+	width:960px;
+	height:30px;
+}
+#daohang{
+	width:941px;
+    font-size:14px;
+    line-height:30px;
+    font-family:宋体;
+    background:url('images/nav_c.gif');
+    display:inline-block;
+}
+#daohangl{
+	float:left;
+	width:10px;
+	height:30px;
+	background:url('images/nav_l.gif');
+	display:inline-block;
+}
+#daohangr{
+	float:right;
+	height:30px;
+	width:9px;
+	background:url('images/nav_r.gif');
+	display:inline-block;
+}
+#daohang a{
+	margin-right:32px;
+	color:#fff;
+}
+#daohang a:nth-child(1){
+  margin-left:22px;
+}
+#left{
+	width:180px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+#right{
+	width:770px;
+	float:right;
+	margin-top:10px;
+}
+.borderOrange{
+	border:1px solid orange;
+	margin-top:8px;
+	font-size:12px;
+	line-height:26px;
+}
+#zhanneisousuo{
+	height:160px;
+}
+.sq{
+	width:766px;
+	height:40px;
+	border:2px solid #ccc;
+	margin-top:10px;
+}
+.sql{
+	float:left;	
+}
+.sqr ul{
+	width:600px;
+	height:20px;
+	float:right;
+}
+.sqr li{
+	width:100px;
+	height:20px;
+	float:left;
+	margin-right:16px;
+	font-size:12px;
+	letter-spacing:2px;
+	border-right:1px dashed #000;
+    margin-top:10px;
+}
+.sqr li:nth-child(5){
+	border:none;
+}
+.more{
+	float:right;
+	margin-top:10px;
+	margin-right:6px;
+}
+.lmTit{
+	font-size:14px;
+    line-height:30px;0;
+    font-family:华文中宋;
+    color:orange;
+    width:166px;
+    height:30px;
+    background:url('images/lm_tit.gif');
+    padding-left:12px;
+    letter-spacing:2px;
+}
+#sousuo{
+	margin-top:20px;
+}
+#sousuo li{
+	text-align:right;
+	margin-right:20px;
+	margin-top:10px;
+}
+#textbox{
+	width:94px;
+}
+#remen{
+	color:rgb(113,113,113);
+	letter-spacing:1px;
+}
+.orange{
+	color:orange;
+	font-size:14px;
+	font-family:微软雅黑;
+}
+#button{
+	width:56px;
+	height:20px;
+	border:none;
+    background:url('images/btn_search.gif');
+    color:#fff;
+    letter-spacing:6px;
+    border-radius:4px;
+}
+.type{
+	background:url('images/fl_bg.gif') no-repeat;
+   text-align:center;
+}
+#xinyongkazhanshi{
+	width:766px;
+	height:160px;
+	border:1px solid #ccc;
+	margin-top: 8px;
+	overflow: hidden;
+}
+#xinyongkazhanshi .lmTit{
+	background-image:url('images/lm_tit_01.gif');
+	background-repeat: no-repeat;
+	background-position:2px 6px;
+
+}
+#leftbutton{
+	float:left;
+}
+#rightbutton{
+	float:right;
+}
+.card{
+	width:130px;
+	margin-left:12px;
+	float:left;
+	text-align:center;
+	margin-top:20px;
+	font-size:12px;
+	letter-spacing:2px;
+	line-height:30px;
+}
+#cardType3{
+	height:190px;
+}
+#xinwen{
+	width:380px;
+	float:left;
+	height:190px;
+	border:1px solid #ccc;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+#zixun{
+	width:380px;
+	float:right;
+	height:190px;
+	border:1px solid #ccc;
+    margin-left:3px;
+    font-size:14px;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.borderGray .lmTit{
+    width:760px;
+    height:30px;
+    background:url('images/lm_tit.gif');
+    padding-left:12px;
+    letter-spacing:2px;
+}
+#xinwen .lmTit{
+	  color:orange;
+    width:368px;
+    height:30px;
+    background:url('images/lm_tit.gif');
+    letter-spacing:2px;
+}
+#zixun .lmTit{
+	 color:orange;
+    width:368px;
+    height:30px;
+    background:url('images/lm_tit.gif');
+    letter-spacing:2px;
+}
+#xinwen .cardlist li{
+	margin-left:20px;
+	font-size:14px;
+	margin-top:8px;
+}
+#zixun .cardlist li{
+	margin-left:20px;
+	font-size:14px;
+	margin-top:8px;
+}
+.date{
+	font-size:12px;
+	float:right;
+	color:rgb(113,113,113);
+	margin-right:10px;
+}
+#friendlink{
+	width:960px;
+	height:118px;
+	border:1px solid #ccc;
+	margin-top:600px;
+}
+#foot,#banquan{
+	text-align:center;
+	color:rgb(113,113,113);
+	line-height:30px;
+	font-size:12px;
+	letter-spacing:1px;
+	margin-top:6px;
+}
+.sqlj img{
+	float:right;
+	margin-top:6px;
+	margin-right:20px;
+}
+#friendlink .lmTit{
+	width:950px;
+}
+#friendlink div img{
+	border:1px solid #ccc;
+	margin-left:26px;
+	margin-top:12px;
+}
+.link{
+	color:#000;
+	font-size:12px;
+	margin-top:10px;
+	margin-left:22px;
+	display:block;
+	float:left;
+}
+.foot-card{
+	margin-left:40px;
+}
